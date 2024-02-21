@@ -1,0 +1,7 @@
+.link {
+    color: #1F0954 !important;
+    font-weight: lighter !important;
+}
+.link:hover{
+    color: orangered !important;
+}

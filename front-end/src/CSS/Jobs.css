@@ -1,0 +1,43 @@
+.mb-4 {
+    margin-top: 50px !important;
+    border-color: black;
+  }
+  .mb-4:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-foot {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+  .scrollable-card {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .apply-btn {
+    background-color: #0FFF50 !important;
+    color: black !important;
+  }
+  .apply-btn:hover {
+    color: white !important;
+  }
+  .nav-tabs .nav-item .nav-link {
+    color: black !important;
+    background-color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: black !important;
+    background-color: #D7DAF2;
+}
+/* .search-bar {
+  border-width: 2px !important;
+  border-color: black !important;
+} */
+
+

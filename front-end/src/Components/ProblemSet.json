@@ -1,0 +1,202 @@
+{
+    "Array": [
+        {
+            "id": 0,
+            "P_No": 0,
+            "problemName": "Two Sum",
+            "problemStatement": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\nYou                             may assume that each input would have exactly one solution, and you may not use the same element twice.\nYou can return the                                answer in any order.\n",
+            "constraints": "* 2 <= nums.length <= 10^4\n* -10^9 <= nums[i] <= 10^9\n* -10^9 <= target <= 10^9\n* Only one valid answer exists.\n",
+            "sampleInput": "4\n2 7 11 15\n9\n",
+            "sampleOutput": "0 1\n",
+            "testCases": [
+                {
+                    "input": "3\n3 2 4\n6\n",
+                    "output": "1 2\n"
+                },
+                {
+                    "input": "2\n3 3\n6\n",
+                    "output": "0 1\n"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "P_No": 1,
+            "problemName": "Print Sum",
+            "problemStatement": "Given an array of integers nums, return the sum of the elements of the array nums.\n",
+            "constraints": "* 0 <= nums.length <= 10^4\n* -10^9 <= nums[i] <= 10^9\n",
+            "sampleInput": "4\n2 7 11 15\n",
+            "sampleOutput": "35\n",
+            "testCases": [
+                {
+                    "input": "3\n3 2 4\n",
+                    "output": "9\n"
+                },
+                {
+                    "input": "2\n1000000 1000000\n",
+                    "output": "2000000\n"
+                }
+            ]
+        }
+    ],
+    "LinkedList": [
+        {
+            "id": 2,
+            "P_No": 0,
+            "problemName": "Find Middle",
+            "problemStatement": "Given a Linked List, return the middle element of the Linked List\n",
+            "constraints": "* 1 <= List.length <= 10^4\n* 0 <= List[i].data <= 10^9\n* List.length is Odd",
+            "sampleInput": "5\n2 7 11 15 16\n",
+            "sampleOutput": "11\n",
+            "testCases": [
+                {
+                    "input": "3\n3 2 4\n",
+                    "output": "2\n"
+                },
+                {
+                    "input": "1\n3\n",
+                    "output": "3\n"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "P_No": 1,
+            "problemName": "Sort Linked List",
+            "problemStatement": "Given a linked list, sort the nodes of the linked list\n",
+            "constraints": "* 0 <= List.length <= 10^4\n* 0 <= List[i].data <= 10^9\n",
+            "sampleInput": "4\n2 7 11 15\n",
+            "sampleOutput": "2 7 11 15\n",
+            "testCases": [
+                {
+                    "input": "3\n3 2 4\n",
+                    "output": "2 3 4\n"
+                },
+                {
+                    "input": "2\n2 1\n",
+                    "output": "1 2\n"
+                }
+            ]
+        }
+    ],
+    "Graphs": [
+        {
+            "id": 4,
+            "P_No": 0,
+            "problemName": "Rotting Oranges",
+            "problemStatement": "You are given a 2D matrix consisting of oranges.\n mat[i][j] = 0: Empty cell,\n mat[i][j] = 1: Fresh Orange,\n mat[i][j] = 2: Rotten Orange.\n As a matter of fact, the rotten oranges spread to the neighbouring cells and rot the fresh oranges. Assuming it takes 1 day for a rotten orange to spread to a neighbouring fresh orange, find out the minimum number of days in which all the oranges rot out. If there is at least 1 fresh orange which will never rot, print -1.\n 2 cells are considered neighbours if they share a common side.\n\n",
+            "constraints": "* 1 <= N <= 500\n* 0 <= mat[i][j] <= 2\n",
+            "sampleInput": "3\n0 2 1\n2 1 0\n1 1 1\n",
+            "sampleOutput": "3\n",
+            "testCases": [
+                {
+                    "input": "3\n0 2 1\n2 1 0\n1 1 1\n",
+                    "output": "3\n"
+                },
+                {
+                    "input": "2\n0 1\n 2 0\n",
+                    "output": "-1\n"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "P_No": 1,
+            "problemName": "Number of Islands",
+            "problemStatement": "You are given a 2D matrix consisting of the following:\n1: land\n0: water\nConsidering N-8 neighbourhood, your task is to find the number of islands in the given landscape.\nAssume that the the 2D matrix is surrounded by water beyond the boundaries.\nDefinitions:\nN-8 neighbourhood: 2 cells are considered neighbours, if they share an edge or a corner.\nIsland: A piece of connected land surrounded by water.\n\n",
+            "constraints": "* 1 <= R,C <= 500\n",
+            "sampleInput": "4 8\n0 1 0 0 1 1 0 1\n1 0 0 0 1 0 1 0\n0 0 1 0 0 1 0 0\n0 1 1 0 1 1 0 1\n",
+            "sampleOutput": "4\n",
+            "testCases": [
+                {
+                    "input": "6 1\n0\n1\n0\n0\n1\n1\n",
+                    "output": "2\n"
+                },
+                {
+                    "input": "9 5\n0 0 0 0 0\n1 0 0 0 1\n0 0 1 1 0\n0 1 1 0 0\n1 0 0 0 0\n0 0 0 0 0\n0 0 1 0 1\n0 0 0 1 1\n0 0 0 1 1\n",
+                    "output": "3\n"
+                }
+            ]
+        }
+    ],
+    "Trees": [
+        {
+            "id": 6,
+            "P_No": 0,
+            "problemName": "Print Nodes Level Wise",
+            "problemStatement": "Write function to print Level-Order Traversal, Each level should be printed on a separate line,  Values of Nodes at each level should be printed space separated and in LEFT to RIGHT order.\nNote: Do not print any newline in the end.\n",
+            "constraints": "* 1 <= N <= 1000\n* 0 <= ar[i] <= 10000\n",
+            "sampleInput": "6\n1 2 4 0 6 5\n",
+            "sampleOutput": "1\n0 2\n4\n5 6\n",
+            "testCases": [
+                {
+                    "input": "5\n1 2 3 4 5\n",
+                    "output": "1\n2\n3\n4\n5\n"
+                },
+                {
+                    "input": "5\n3 2 4 1 5\n",
+                    "output": "3\n2 4\n1 5\n"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "P_No": 1,
+            "problemName": "Print Left View of a Binary Tree",
+            "problemStatement": "Given a Binary Tree, print left view of it. Left view of a Binary Tree is set of nodes visible when tree is visited from left side.\n",
+            "constraints": "* 1 <= N <= 1000\n* 0 <= ar[i] <= 10000\n",
+            "sampleInput": "7\n1 2 4 5 3 6 7\n4 2 5 1 6 3 7\n",
+            "sampleOutput": "1 2 4\n",
+            "testCases": [
+                {
+                    "input": "7\n1 2 4 5 3 6 7\n4 2 5 1 6 3 7\n",
+                    "output": "1 2 4\n"
+                },
+                {
+                    "input": "16\n1 2 5 10 11 4 3 6 12 13 8 9 7 14 16 15\n2 10 5 11 4 1 12 6 8 9 13 3 14 16 7 15\n",
+                    "output": "1 2 5 10 4 9\n"
+                }
+            ]
+        }
+    ],
+    "DynamicProgramming": [
+        {
+            "id": 8,
+            "P_No": 0,
+            "problemName": "Pascal's triangle",
+            "problemStatement": "Given an integer numRows, return the first numRows of Pascal's triangle.\n",
+            "constraints": "* 1 <= numRows <= 30\n",
+            "sampleInput": "5\n",
+            "sampleOutput": "    1\n   1 1\n  1 2 1\n 1 3 3 1\n1 4 6 4 1\n",
+            "testCases": [
+                {
+                    "input": "1\n",
+                    "output": "1\n"
+                },
+                {
+                    "input": "3\n",
+                    "output": "  1\n 1 1\n1 2 1\n"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "P_No": 1,
+            "problemName": "Is Subsequence",
+            "problemStatement": "Given two strings s and t, return true if s is a subsequence of t, or false otherwise.\nA subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., 'ace' is a subsequence of 'abcde' while 'aec' is not).\n",
+            "constraints": "* 0 <= s.length <= 100\n* 0 <= t.length <= 10^4* s and t consist only of lowercase English letters.\n",
+            "sampleInput": "abc\n ahbgdc\n",
+            "sampleOutput": "true\n",
+            "testCases": [
+                {
+                    "input": "axc\n ahbgdc",
+                    "output": "false\n"
+                },
+                {
+                    "input": "koushik\nkrishnakoushik\n",
+                    "output": "true\n"
+                }
+            ]
+        }
+    ]
+}

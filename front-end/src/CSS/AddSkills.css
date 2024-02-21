@@ -1,0 +1,28 @@
+.skill-name:hover {
+  cursor: pointer;
+  color: red;
+}
+.skill-container {
+  margin-top: -100px !important;
+}
+.card-header {
+  background-color: #D7DAF2 !important;
+  color: black !important;
+}
+.add-btn {
+  background-color: #6495ED !important;
+  color: white !important;
+}
+.card {
+  width: 40rem;
+  height: fit-content;
+  border-color: black !important;
+}
+.add-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}

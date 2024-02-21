@@ -1,0 +1,25 @@
+.first-box{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box {
+
+}
+.std-details{
+    margin-right: 50px;
+} 
+.data {
+    margin-right: 5px !important;
+    font-size: 16px !important;
+    font-weight: lighter !important;
+    color: black !important;
+}
+.border {
+    background-color: #F5F5F5;
+}
+.border:hover {
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15)!important;
+}

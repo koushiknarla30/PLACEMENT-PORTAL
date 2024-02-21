@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.company-item:hover {
+    background-color: #f8f9fa;
+    color: red;
+    cursor: pointer;
+}
+* {
+    font-family: 'Kanit', sans-serif !important;
+}
+.close-btn {
+    background-color: orangered !important;
+
+}
+.button-group {
+    display: flex !important;
+    
+  }
+  
+  /* .button-group Button {
+    flex: 1 1 0px;
+    margin: 2px;
+  } */
+  .view-btn {
+    height: 40px;
+  }
+  .cn-dis {
+    font-weight: 16px;
+    font-size: large;
+  }
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  .custom-dropdown-menu {
+    position: absolute;
+    transform: translate3d(0px, 38px, 0px); /* Adjust this value as needed */
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+    border-color: black !important;
+    border-width: 2px !important;
+  }
+  .card {
+    margin-top: 150px;
+  }
+  .Dropdown.Item:hover {
+    color: orangered !important;
+  }
+.custom-modal .modal-dialog {
+    max-width: 600px;
+}
+
+
+
+
+
+  
+  
+  
+  
+  

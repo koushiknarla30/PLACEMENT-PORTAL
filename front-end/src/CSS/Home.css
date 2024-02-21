@@ -1,0 +1,42 @@
+.name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card-header {
+    background-color: #D7DAF2 !important;
+    color: black !important;
+  }
+  
+  .mb-4 {
+    margin-top: 50px !important;
+    max-width: 400px;
+    border-color: black;
+  }
+  .mb-4:hover{
+    max-width: 400px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+  }
+  .scrollable-card {
+    max-height: 400px !important;
+    overflow-y: auto;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .std-name{
+    color: orangered !important;
+  }
+  .info {
+    color: #190743;
+    font-weight: lighter !important;
+  }
+  .details {
+    color: #030108;
+    font-weight:lighter !important;
+    display: inline !important;
+  }
+  
+  

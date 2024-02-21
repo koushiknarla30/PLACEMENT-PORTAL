@@ -1,0 +1,11 @@
+.link {
+    color: black !important;
+    font-weight: bold !important;
+}
+.link:hover{
+    color: orangered !important;
+}
+.custom-thead {
+    background-color: #D7DAF2 !important; /* Change this to your preferred color */
+    color: black !important
+}

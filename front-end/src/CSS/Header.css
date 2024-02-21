@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Labrada:wght@300&display=swap');
+body {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Labrada', serif;
+}
+.custom-navbar {
+  background-color:  #2E4053;
+}
+.custom-navbar:hover{
+  /* transform: scale(1.03); */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+
+.nav-bar {
+  right:40px;
+  position:absolute;
+}
+.nav-link {
+  color: white !important;
+  font-weight: lighter !important;
+}
+.u-id {
+  color: white !important;
+  font-weight: lighter !important;
+}
+.nav-link:hover{
+  color: orangered !important;
+}
+
+.logout-button:hover {
+  background-color: #ff0505 !important;
+  color: white !important;
+}
+.profile-icon:hover {
+  cursor: pointer !important;
+}

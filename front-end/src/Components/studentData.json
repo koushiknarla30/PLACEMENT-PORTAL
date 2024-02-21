@@ -1,0 +1,94 @@
+[
+    {
+        "uid": "20H51A05L3",
+        "name": "NARLA KRISHNA KOUSHIK",
+        "Branch": "Computer Science & Engineering",
+        "B.Tech-Percentile": "74%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":0,
+        "10th-Percentile":"85.5%",
+        "Inter/Diploma-Percentile":"84.2%",
+        "EAMCET-Rank":53246,
+        "Image" : "/20H51A05L3.jpg",
+        "FatherNo": "7799899880"
+    },
+    {
+        "uid": "20H51A0570",
+        "name": "NANDIREDDY SRIKANTH REDDY",
+        "Branch": "Computer Science & Engineering",
+        "B.Tech-Percentile": "85.5%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":0,
+        "10th-Percentile":"90.5%",
+        "Inter/Diploma-Percentile":"98.3%",
+        "EAMCET-Rank":7628,
+        "Image" : "/20H51A0570.jpg",
+        "FatherNo": "9014075836"
+    },
+    {
+        "uid": "20H51A05E9",
+        "name": "NALUMASU SATHWIK",
+        "Branch": "Computer Science & Engineering",
+        "B.Tech-Percentile": "80.4%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":0,
+        "10th-Percentile":"86%",
+        "Inter/Diploma-Percentile":"94.5%",
+        "EAMCET-Rank":29101,
+        "Image":"/20H51A05E9.jpg",
+        "FatherNo": "7893944884"
+    },
+    {
+        "uid": "20H51A0593",
+        "name": "GUDAPUREDDY RAM SAI CHARAN REDDY",
+        "Branch": "Computer Science & Engineering",
+        "B.Tech-Percentile": "84.5%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":0,
+        "10th-Percentile":"95%",
+        "Inter/Diploma-Percentile":"96%",
+        "EAMCET-Rank":4578,
+        "Image":"/Male.jpg",
+        "FatherNo":"7674095983"
+    },
+    {
+        "uid": "20H51A0412",
+        "name": "RAICHOD RAJU",
+        "Branch": "Electronics & Communication Engineering",
+        "B.Tech-Percentile": "NA",
+        "Active-Backlogs":1,
+        "Passive-Blacklogs":3,
+        "10th-Percentile":80.5,
+        "Inter/Diploma-Percentile":"78.3%",
+        "EAMCET-Rank":33000,
+        "Image":"/Male.jpg",
+        "FatherNo": "1234567890"
+    },
+    {
+        "uid": "20H51A0459",
+        "name": "MEKA RAJESH",
+        "Branch": "Electronics & Communication Engineering",
+        "B.Tech-Percentile": "70.5%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":3,
+        "10th-Percentile":80.5,
+        "Inter/Diploma-Percentile":"78.3%",
+        "EAMCET-Rank":21620,
+        "Image":"/Male.jpg",
+        "FatherNo": "1234567890"
+    },
+    {
+        "uid": "20H51A1252",
+        "name": "MARE RANI",
+        "Branch": "Information Technology",
+        "B.Tech-Percentile": "71.5%",
+        "Active-Backlogs":0,
+        "Passive-Blacklogs":2,
+        "10th-Percentile":"79.5%",
+        "Inter/Diploma-Percentile":"79.9%",
+        "EAMCET-Rank":36720,
+        "Image":"/Female.jpg",
+        "FatherNo": "1234567890"
+    }
+
+]
